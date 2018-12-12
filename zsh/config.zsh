@@ -7,9 +7,9 @@ fi
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
 
-fpath=($ZSH/functions $fpath)
+fpath=($ZSHDOT/functions $fpath)
 
-autoload -U $ZSH/functions/*(:t)
+autoload -U $ZSHDOT/functions/*(:t)
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -24,6 +24,7 @@ setopt HIST_VERIFY
 setopt SHARE_HISTORY # share history between sessions ???
 setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
+# setopt PROMPT_SP
 setopt CORRECT
 setopt COMPLETE_IN_WORD
 setopt IGNORE_EOF
