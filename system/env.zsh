@@ -1,2 +1,1 @@
-export EDITOR='vim'
-export ATLAS_TOKEN="vmbnw8Bjq2qJ4g.atlasv1.y7FARzMVoBsRm6GR8NluY8we3nO8dLQkMbqAsV5K4va6JJUMpu2HO6rFtqHN0szBxyk"
+export EDITOR='code'
