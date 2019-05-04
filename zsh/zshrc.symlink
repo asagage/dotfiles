@@ -2,7 +2,7 @@
 export ZSHDOT=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
-plugins+=(zsh-nvm)
+plugins+=(zsh-nvm,kubectl)
 source $ZSH/oh-my-zsh.sh
 
 # your project folder that we can `c [tab]` to

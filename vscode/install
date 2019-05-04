@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#
+# link visualstudio code user dir to our dotfiles
+rm -rf ~/Library/Application\ Support/Code/User
+ln -s ~/.dotfiles/vscode/ ~/Library/Application\ Support/Code/User
